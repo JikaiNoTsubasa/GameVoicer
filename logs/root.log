@@ -1,0 +1,24 @@
+2020-01-16 14:17:33 [Thread-1] INFO  fr.triedge.game.voicer.controller.VoiceServer - Starting server with port 1989...
+2020-01-16 14:17:50 [main] INFO  fr.triedge.game.voicer.controller.VoiceClient - Loading config from conf/client.properties...
+2020-01-16 14:17:50 [main] INFO  fr.triedge.game.voicer.controller.VoiceClient - Connecting to server...
+2020-01-16 14:17:50 [Thread-1] INFO  fr.triedge.game.voicer.controller.VoiceServer - Connection received from 127.0.0.1:62053
+2020-01-16 17:32:18 [main] ERROR fr.triedge.game.voicer.controller.VoiceClient - Cannot connect to server
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_121]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_121]
+	at java.io.ObjectInputStream$PeekInputStream.read(ObjectInputStream.java:2606) ~[?:1.8.0_121]
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2622) ~[?:1.8.0_121]
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3099) ~[?:1.8.0_121]
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:853) ~[?:1.8.0_121]
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:349) ~[?:1.8.0_121]
+	at fr.triedge.game.voicer.controller.VoiceClient.connectToServer(VoiceClient.java:90) ~[bin/:?]
+	at fr.triedge.game.voicer.controller.VoiceClient.init(VoiceClient.java:55) [bin/:?]
+	at fr.triedge.game.voicer.controller.VoiceClient.main(VoiceClient.java:105) [bin/:?]
+2020-03-23 16:56:36 [Thread-1] INFO  fr.triedge.game.voicer.server.ServerDispatcher - Starting server with port: 2020
+2020-03-23 17:03:22 [Thread-1] INFO  fr.triedge.game.voicer.server.ServerDispatcher - Starting server with port: 1989
+2020-03-23 18:14:49 [Thread-1] INFO  fr.triedge.game.voicer.server.ServerDispatcher - Starting server with port: 1989
+2020-03-23 18:16:06 [Thread-1] INFO  fr.triedge.game.voicer.server.ServerDispatcher - Starting server with port: 1989
+2020-03-24 09:07:09 [Thread-1] INFO  fr.triedge.game.voicer.server.ServerDispatcher - Starting server with port: 1989
+2020-03-24 09:09:31 [Thread-1] INFO  fr.triedge.game.voicer.server.ServerDispatcher - Starting server with port: 1989
+2020-03-24 09:10:38 [Thread-1] INFO  fr.triedge.game.voicer.server.ServerDispatcher - Starting server with port: 1989
+2020-03-24 09:31:20 [Thread-1] INFO  fr.triedge.game.voicer.server.ServerDispatcher - Starting server with port: 1989
